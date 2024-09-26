@@ -9,8 +9,10 @@ export const Projects = () => {
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <div className="w-full lg:w-1/4 justify-center flex">
 
+              <a href={project.link} target="_blank" rel="noopener noreferrer nofollow">
 
-              <img className="mb-6 rounded" src={project.image} alt={project.title} width={150} height={150} />
+                <img className="mb-6 rounded" src={project.image} alt={project.title} width={150} height={150} />
+              </a>
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">{project.title}</h6>

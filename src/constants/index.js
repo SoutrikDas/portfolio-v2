@@ -49,6 +49,7 @@ export const PROJECTS = [
     description:
       "ISEA is a Highly Celebrated Computer Technology Convention in India. ",
     technologies: ["HTML", "CSS", "React", "Node.js"],
+    link: "https://people.iitism.ac.in/~isea-isap2021/#/",
   },
   {
     title: "Email Automatic Draft Maker",
@@ -64,6 +65,7 @@ export const PROJECTS = [
     description:
       "Sometimes we just need a anonymous link to our screenshot instead of just the screenshot, this app does just that by automatically uploading the image to platforms like imgur and retrieving the links",
     technologies: ["Python"],
+    link : "https://www.youtube.com/watch?v=RXcqoYobEGI",
   },
   {
     title: "Flutter Todo App",

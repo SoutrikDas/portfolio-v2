@@ -1,5 +1,6 @@
 import aboutImg from "../assets/soutrik2.jpg"
 import { ABOUT_TEXT } from "../constants"
+import LeetCodeStats from "./LeetCodeStats"
 export const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -14,8 +15,11 @@ export const About = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
-            <p className="font-light my-2 max-w-xl py-6"> {ABOUT_TEXT}
-            </p></div></div>
+            <p className="text-lg my-2 max-w-xl py-6"> {ABOUT_TEXT}
+              <LeetCodeStats />
+            </p>
+
+          </div></div>
       </div>
     </div>
   )
